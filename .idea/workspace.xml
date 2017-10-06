@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffbc62e0-113a-477e-8f70-b7324597cbb0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoList.js" afterPath="$PROJECT_DIR$/TodoList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +22,143 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+            <state relative-caret-position="533">
+              <caret line="63" column="35" lean-forward="false" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1507293333000" expanded="true" signature="401447:401453" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="401472:401632" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="401646:401796" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/trim/-/trim-0.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="401816:401959" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="401975:402110" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tsscmp/-/tsscmp-1.0.5.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402132:402396" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402293:402390" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402415:402581" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402601:402877" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402777:402871" ph="{&quot;prelude-ls&quot;: &quot;https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="402894:403236" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.15.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="403046:403230" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="403256:403399" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="403421:403569" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.14.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="403588:405668" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.5.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="403743:404097" ph="{&quot;async&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="404121:405662" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="404140:404286" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="404309:404462" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="404481:404935" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="404640:404925" ph="{&quot;center-align&quot;: &quot;https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="404957:405108" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="405127:405654" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="405287:405644" ph="{&quot;camelcase&quot;: &quot;https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="405698:405861" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="405879:406138" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406032:406132" ph="{&quot;random-bytes&quot;: &quot;https://registry.npmjs.org/random-bytes/-/random-bytes-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406154:406289" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ultron/-/ultron-1.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406311:406477" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/universalify/-/universalify-0.1.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406493:406628" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406648:406810" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="406836:407124" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/upper-case-first/-/upper-case-first-1.1.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407024:407118" ph="{&quot;upper-case&quot;: &quot;https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407137:407711" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url/-/url-0.11.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407300:407477" ph="{&quot;punycode&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407501:407705" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="407523:407697" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407734:408022" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="407916:408016" ph="{&quot;prepend-http&quot;: &quot;https://registry.npmjs.org/prepend-http/-/prepend-http-1.0.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408046:408216" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url-to-options/-/url-to-options-1.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408240:408391" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408412:408576" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408590:408721" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid/-/uuid-3.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408738:408875" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid-js/-/uuid-js-0.7.5.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="408913:409331" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="409106:409325" ph="{&quot;spdx-correct&quot;: &quot;https://registry.npmjs.org/spdx-correct/-/spdx-correct-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="409345:409476" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vary/-/vary-1.1.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="409492:409923" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/verror/-/verror-1.10.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="409642:409917" ph="{&quot;assert-plus&quot;: &quot;https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="409938:410071" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vhost/-/vhost-3.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410086:410692" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410233:410490" ph="{&quot;clone&quot;: &quot;https://registry.npmjs.org/clone/-/clone-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410514:410686" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="410533:410678" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/clone/-/clone-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410708:410955" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/walker/-/walker-1.0.7.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410857:410949" ph="{&quot;makeerror&quot;: &quot;https://registry.npmjs.org/makeerror/-/makeerror-1.0.11.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="410970:411289" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/watch/-/watch-0.18.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="411118:411283" ph="{&quot;exec-sh&quot;: &quot;https://registry.npmjs.org/exec-sh/-/exec-sh-0.2.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="411317:411495" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="411511:412121" ph="{&quot;version&quot;: &quot;https://github.com/expo/node-websql/archive/18.0.0.tar.gz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="411665:412115" ph="{&quot;argsarray&quot;: &quot;https://registry.npmjs.org/argsarray/-/argsarray-0.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="412146:412668" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-1.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="412332:412427" ph="{&quot;iconv-lite&quot;: &quot;https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="412451:412662" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="412475:412654" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="412690:412837" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="412857:413483" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-url/-/whatwg-url-4.8.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413033:413219" ph="{&quot;tr46&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413243:413477" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="413275:413469" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413498:413730" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/which/-/which-1.3.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413645:413724" ph="{&quot;isexe&quot;: &quot;https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413752:413899" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="413920:414167" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/win-release/-/win-release-1.1.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414079:414161" ph="{&quot;semver&quot;: &quot;https://registry.npmjs.org/semver/-/semver-5.4.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414184:414340" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/winchan/-/winchan-0.1.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414361:414506" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414524:414663" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414684:415195" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/worker-farm/-/worker-farm-1.5.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="414843:414993" ph="{&quot;errno&quot;: &quot;https://registry.npmjs.org/errno/-/errno-0.1.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415017:415189" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="415036:415181" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415214:416969" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415369:415555" ph="{&quot;string-width&quot;: &quot;https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415579:416963" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="415603:415758" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415795:416111" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="415990:416101" ph="{&quot;number-is-nan&quot;: &quot;https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="416137:416650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="416310:416640" ph="{&quot;code-point-at&quot;: &quot;https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="416674:416955" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="416843:416945" ph="{&quot;ansi-regex&quot;: &quot;https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="416985:417120" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="417147:417582" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-1.3.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="417318:417576" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="417594:418099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ws/-/ws-1.1.4.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="417735:417894" ph="{&quot;options&quot;: &quot;https://registry.npmjs.org/options/-/options-0.0.6.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="417918:418093" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="417938:418085" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ultron/-/ultron-1.0.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="418114:418700" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xcode/-/xcode-0.9.3.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="418261:418501" ph="{&quot;pegjs&quot;: &quot;https://registry.npmjs.org/pegjs/-/pegjs-0.10.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="418525:418694" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="418543:418686" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid/-/uuid-3.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="418713:425081" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xdl/-/xdl-45.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="418876:423300" ph="{&quot;@expo/bunyan&quot;: &quot;https://registry.npmjs.org/@expo/bunyan/-/bunyan-1.8.10.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="423324:425075" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="423346:423993" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/fs-extra/-/fs-extra-0.30.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="423535:423983" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="424011:424741" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/glob/-/glob-7.1.2.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="424191:424731" ph="{&quot;fs.realpath&quot;: &quot;https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="424763:425067" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="424951:425057" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425109:425287" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-2.0.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425307:425753" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.0.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425464:425547" ph="{&quot;lodash&quot;: &quot;https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425571:425747" ph="{...}" />
+                <marker date="1507293333000" expanded="true" signature="425591:425739" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425769:425997" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmldoc/-/xmldoc-0.4.0.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="425918:425991" ph="{&quot;sax&quot;: &quot;https://registry.npmjs.org/sax/-/sax-1.1.6.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="426013:426149" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmldom/-/xmldom-0.1.27.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="426164:426297" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xpipe/-/xpipe-1.0.5.tgz&quot;...}" />
+                <marker date="1507293333000" expanded="true" signature="426314:426470" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -46,10 +181,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507286932000" expanded="true" signature="0:722" ph="{&quot;name&quot;: &quot;practice&quot;...}" />
-                <marker date="1507286932000" expanded="true" signature="586:672" ph="{&quot;expo&quot;: &quot;^21.0.0&quot;...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -195,12 +327,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507276617712</updated>
-      <workItem from="1507276619327" duration="10132000" />
+      <workItem from="1507276619327" duration="12442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10132000" />
+    <option name="totallyTimeSpent" value="12442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -236,17 +368,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507286932000" expanded="true" signature="0:722" ph="{&quot;name&quot;: &quot;practice&quot;...}" />
-            <marker date="1507286932000" expanded="true" signature="586:672" ph="{&quot;expo&quot;: &quot;^21.0.0&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -301,10 +422,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507293333000" expanded="true" signature="401447:401453" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="401472:401632" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="401646:401796" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/trim/-/trim-0.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="401816:401959" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/trim-right/-/trim-right-1.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="401975:402110" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tsscmp/-/tsscmp-1.0.5.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402132:402396" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402293:402390" ph="{&quot;safe-buffer&quot;: &quot;https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402415:402581" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402601:402877" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-check/-/type-check-0.3.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402777:402871" ph="{&quot;prelude-ls&quot;: &quot;https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="402894:403236" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/type-is/-/type-is-1.6.15.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="403046:403230" ph="{&quot;media-typer&quot;: &quot;https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="403256:403399" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="403421:403569" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.14.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="403588:405668" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-js/-/uglify-js-2.7.5.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="403743:404097" ph="{&quot;async&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="404121:405662" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="404140:404286" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/async/-/async-0.2.10.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="404309:404462" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="404481:404935" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="404640:404925" ph="{&quot;center-align&quot;: &quot;https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="404957:405108" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="405127:405654" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="405287:405644" ph="{&quot;camelcase&quot;: &quot;https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="405698:405861" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="405879:406138" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uid-safe/-/uid-safe-2.1.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406032:406132" ph="{&quot;random-bytes&quot;: &quot;https://registry.npmjs.org/random-bytes/-/random-bytes-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406154:406289" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ultron/-/ultron-1.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406311:406477" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/universalify/-/universalify-0.1.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406493:406628" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406648:406810" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="406836:407124" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/upper-case-first/-/upper-case-first-1.1.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407024:407118" ph="{&quot;upper-case&quot;: &quot;https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407137:407711" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url/-/url-0.11.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407300:407477" ph="{&quot;punycode&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407501:407705" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="407523:407697" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407734:408022" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url-parse-lax/-/url-parse-lax-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="407916:408016" ph="{&quot;prepend-http&quot;: &quot;https://registry.npmjs.org/prepend-http/-/prepend-http-1.0.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408046:408216" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/url-to-options/-/url-to-options-1.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408240:408391" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408412:408576" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408590:408721" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid/-/uuid-3.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408738:408875" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid-js/-/uuid-js-0.7.5.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="408913:409331" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="409106:409325" ph="{&quot;spdx-correct&quot;: &quot;https://registry.npmjs.org/spdx-correct/-/spdx-correct-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="409345:409476" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vary/-/vary-1.1.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="409492:409923" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/verror/-/verror-1.10.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="409642:409917" ph="{&quot;assert-plus&quot;: &quot;https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="409938:410071" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vhost/-/vhost-3.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410086:410692" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/vinyl/-/vinyl-0.5.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410233:410490" ph="{&quot;clone&quot;: &quot;https://registry.npmjs.org/clone/-/clone-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410514:410686" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="410533:410678" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/clone/-/clone-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410708:410955" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/walker/-/walker-1.0.7.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410857:410949" ph="{&quot;makeerror&quot;: &quot;https://registry.npmjs.org/makeerror/-/makeerror-1.0.11.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="410970:411289" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/watch/-/watch-0.18.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="411118:411283" ph="{&quot;exec-sh&quot;: &quot;https://registry.npmjs.org/exec-sh/-/exec-sh-0.2.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="411317:411495" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-4.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="411511:412121" ph="{&quot;version&quot;: &quot;https://github.com/expo/node-websql/archive/18.0.0.tar.gz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="411665:412115" ph="{&quot;argsarray&quot;: &quot;https://registry.npmjs.org/argsarray/-/argsarray-0.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="412146:412668" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-encoding/-/whatwg-encoding-1.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="412332:412427" ph="{&quot;iconv-lite&quot;: &quot;https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="412451:412662" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="412475:412654" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.13.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="412690:412837" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="412857:413483" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/whatwg-url/-/whatwg-url-4.8.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413033:413219" ph="{&quot;tr46&quot;: &quot;https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413243:413477" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="413275:413469" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413498:413730" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/which/-/which-1.3.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413645:413724" ph="{&quot;isexe&quot;: &quot;https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413752:413899" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/which-module/-/which-module-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="413920:414167" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/win-release/-/win-release-1.1.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414079:414161" ph="{&quot;semver&quot;: &quot;https://registry.npmjs.org/semver/-/semver-5.4.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414184:414340" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/winchan/-/winchan-0.1.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414361:414506" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414524:414663" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414684:415195" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/worker-farm/-/worker-farm-1.5.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="414843:414993" ph="{&quot;errno&quot;: &quot;https://registry.npmjs.org/errno/-/errno-0.1.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415017:415189" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="415036:415181" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415214:416969" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415369:415555" ph="{&quot;string-width&quot;: &quot;https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415579:416963" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="415603:415758" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415795:416111" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="415990:416101" ph="{&quot;number-is-nan&quot;: &quot;https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="416137:416650" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="416310:416640" ph="{&quot;code-point-at&quot;: &quot;https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="416674:416955" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="416843:416945" ph="{&quot;ansi-regex&quot;: &quot;https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="416985:417120" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="417147:417582" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/write-file-atomic/-/write-file-atomic-1.3.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="417318:417576" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="417594:418099" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ws/-/ws-1.1.4.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="417735:417894" ph="{&quot;options&quot;: &quot;https://registry.npmjs.org/options/-/options-0.0.6.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="417918:418093" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="417938:418085" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/ultron/-/ultron-1.0.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="418114:418700" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xcode/-/xcode-0.9.3.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="418261:418501" ph="{&quot;pegjs&quot;: &quot;https://registry.npmjs.org/pegjs/-/pegjs-0.10.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="418525:418694" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="418543:418686" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/uuid/-/uuid-3.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="418713:425081" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xdl/-/xdl-45.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="418876:423300" ph="{&quot;@expo/bunyan&quot;: &quot;https://registry.npmjs.org/@expo/bunyan/-/bunyan-1.8.10.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="423324:425075" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="423346:423993" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/fs-extra/-/fs-extra-0.30.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="423535:423983" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="424011:424741" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/glob/-/glob-7.1.2.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="424191:424731" ph="{&quot;fs.realpath&quot;: &quot;https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="424763:425067" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="424951:425057" ph="{&quot;graceful-fs&quot;: &quot;https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425109:425287" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xml-name-validator/-/xml-name-validator-2.0.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425307:425753" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-4.0.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425464:425547" ph="{&quot;lodash&quot;: &quot;https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425571:425747" ph="{...}" />
+            <marker date="1507293333000" expanded="true" signature="425591:425739" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/lodash/-/lodash-3.10.1.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425769:425997" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmldoc/-/xmldoc-0.4.0.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="425918:425991" ph="{&quot;sax&quot;: &quot;https://registry.npmjs.org/sax/-/sax-1.1.6.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="426013:426149" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xmldom/-/xmldom-0.1.27.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="426164:426297" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xpipe/-/xpipe-1.0.5.tgz&quot;...}" />
+            <marker date="1507293333000" expanded="true" signature="426314:426470" ph="{&quot;version&quot;: &quot;https://registry.npmjs.org/xregexp/-/xregexp-2.0.0.tgz&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state relative-caret-position="533">
+          <caret line="63" column="35" lean-forward="false" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
