@@ -2,7 +2,10 @@ import React from 'react';
 
 import {StyleSheet,Text,} from 'react-native';
 import TodoList from "./TodoList";
+import TaskForm from "./TaskForm";
+
 import NavigationExperimental from 'react-native-deprecated-custom-components';
+
 class App extends React.Component {
 
     constructor(props) {
@@ -41,7 +44,7 @@ class App extends React.Component {
         switch (route.name) {
             case 'taskform':
                 return (
-                    <Text>Add New Task Come Here</Text>
+                  <TaskForm/>
                 );
             default:
                 return (
@@ -61,7 +64,8 @@ class App extends React.Component {
 
     render() {
         return (
-            <NavigationExperimental initialRoute={{name: 'taskList', index: 0}}
+            <NavigationExperimental.Navigator initialRoute={{ name: 'taskList', index: 0 ,
+            screen: TodoList}}
                        ref={((nav)=>{
                            this.nav = nav;
                        })}
