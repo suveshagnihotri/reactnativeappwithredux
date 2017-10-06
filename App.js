@@ -38,9 +38,15 @@ class App extends React.Component {
     }
 
 
+    onAddStarted(){
+     console.log('onAdd Clicked');
+    }
+
   render() {
     return (
-      <TodoList todos={this.state.todos}/>
+      <TodoList
+          onAddStarted={this.onAddStarted.bind(this)}
+          todos={this.state.todos}/>
     );
   }
 }
