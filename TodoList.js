@@ -48,6 +48,11 @@ class TodoList extends React.Component {
         );
     }
 
+    componentWillReceiveProps(nextProps){
+      const dataSource = this.state.dataSource.cloneWithRows(nextProps.todos);
+      this.setState({dataSource});
+    }
+
     render() {
         return (
             <View style={style.container}>

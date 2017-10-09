@@ -18,24 +18,6 @@ class App extends React.Component {
                 {
                     tasks: ' Agnihotri',
                 },
-                {
-                    tasks: ' Suvesh',
-                },
-                {
-                    tasks: 'Suvesh ',
-                },
-                {
-                    tasks: 'Suvesh Agnihotri',
-                },
-                {
-                    tasks: ' Agnihotri',
-                },
-                {
-                    tasks: ' Suvesh',
-                },
-                {
-                    tasks: 'Suvesh ',
-                },
             ],
         };
     }
@@ -44,7 +26,9 @@ class App extends React.Component {
         switch (route.name) {
             case 'taskform':
                 return (
-                  <TaskForm/>
+                  <TaskForm
+                  onCancel={this.onCancel.bind(this)}
+                  onAdd={this.onAdd.bind(this)}/>
                 );
             default:
                 return (
@@ -60,6 +44,20 @@ class App extends React.Component {
         this.nav.push({
             name : 'taskform',
         });
+    }
+
+    onCancel(){
+      console.log('cancel');
+      this.nav.pop();
+    }
+
+    onAdd(task){
+      console.log('onAdd',task);
+      this.state.todos.push({
+        task: task,
+      });
+      this.setState({ todos:this.state.todos})
+      this.nav.pop();
     }
 
     render() {
