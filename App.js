@@ -28,6 +28,7 @@ class App extends React.Component {
                 return (
                   <TaskForm
                   onCancel={this.onCancel.bind(this)}
+                  onDone ={this.onDone.bind(this)}
                   onAdd={this.onAdd.bind(this)}/>
                 );
             default:
@@ -49,6 +50,11 @@ class App extends React.Component {
     onCancel(){
       console.log('cancel');
       this.nav.pop();
+    }
+
+    onDone(todo){
+      console.log('onDone',todo);
+
     }
 
     onAdd(task){

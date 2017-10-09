@@ -44,7 +44,9 @@ class TodoList extends React.Component {
 
     renderRow(todos) {
         return (
-            <TaskRow todo={todos}/>
+            <TaskRow
+            onDone={this.props.onDone}
+            todo={todos}/>
         );
     }
 
