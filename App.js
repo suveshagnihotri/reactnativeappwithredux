@@ -28,13 +28,13 @@ class App extends React.Component {
                 return (
                   <TaskForm
                   onCancel={this.onCancel.bind(this)}
-                  onDone ={this.onDone.bind(this)}
                   onAdd={this.onAdd.bind(this)}/>
                 );
             default:
                 return (
                     <TodoList
                         onAddStarted={this.onAddStarted.bind(this)}
+                        onDone ={this.onDone.bind(this)}
                         todos={this.state.todos}
                     />
                 );
@@ -54,15 +54,18 @@ class App extends React.Component {
 
     onDone(todo){
       console.log('onDone',todo);
-
+      const filterTodos = this.state.todos.filter ((filterTodos)=>{
+         return filterTodos !== todo;
+         });
+     this.setState({todos: filterTodos});
     }
 
     onAdd(task){
       console.log('onAdd',task);
       this.state.todos.push({
-        task: task,
+        tasks: task,
       });
-      this.setState({ todos:this.state.todos})
+      this.setState({ todos: this.state.todos})
       this.nav.pop();
     }
 

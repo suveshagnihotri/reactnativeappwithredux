@@ -76,6 +76,7 @@ class TodoList extends React.Component {
 
 TodoList.propTypes = {
     onAddStarted: React.PropTypes.func.isRequired,
+    onDone: React.PropTypes.func.isRequired,
     todos: React.PropTypes.arrayOf(React.PropTypes.object).isRequired,
 };
 
