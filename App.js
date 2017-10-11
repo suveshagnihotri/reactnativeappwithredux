@@ -3,23 +3,17 @@ import React from 'react';
 import {StyleSheet,Text,} from 'react-native';
 import TodoList from "./TodoList";
 import TaskForm from "./TaskForm";
-
+import store from "./store";
 import NavigationExperimental from 'react-native-deprecated-custom-components';
 
 class App extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {
-            todos: [
-                {
-                    tasks: 'Suvesh Agnihotri',
-                },
-                {
-                    tasks: ' Agnihotri',
-                },
-            ],
-        };
+        this.state = store.getState();
+        store.subscribe(()=>{
+          this.setState(store.getState());
+        });
     }
 
     renderScene(route, nav) {
@@ -62,10 +56,10 @@ class App extends React.Component {
 
     onAdd(task){
       console.log('onAdd',task);
-      this.state.todos.push({
-        tasks: task,
+      store.dispatch({
+        type : 'ADD_TODO',
+        task,
       });
-      this.setState({ todos: this.state.todos})
       this.nav.pop();
     }
 
