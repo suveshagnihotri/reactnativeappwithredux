@@ -16,6 +16,10 @@ function todeStore(state = defaultState, action){
          tasks:action.task,
        }]),
      });
+     case 'DONE_TODO':
+       return Object.assign({},state,{
+         todos:state.todos.filter(todo => todo !== action.todo),
+       });
      default:
        return state;
   }

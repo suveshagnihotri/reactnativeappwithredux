@@ -48,10 +48,14 @@ class App extends React.Component {
 
     onDone(todo){
       console.log('onDone',todo);
-      const filterTodos = this.state.todos.filter ((filterTodos)=>{
-         return filterTodos !== todo;
-         });
-     this.setState({todos: filterTodos});
+      store.dispatch({
+        type: 'DONE_TODO',
+        todo,
+      });
+    //   const filterTodos = this.state.todos.filter ((filterTodos)=>{
+    //      return filterTodos !== todo;
+    //      });
+    //  this.setState({todos: filterTodos});
     }
 
     onAdd(task){
